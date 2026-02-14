@@ -110,7 +110,7 @@ C:\Users\{userid}\BelkinSucks\.venv\Scripts\python.exe C:\Users\{userid}\BelkinS
 - By default, output is logged to timestamped files: `wemo_repair_YYYYMMDD_HHMMSS.log`.
 - `-log <full path>` writes logs to a custom file location.
 - `-log NOLOG` disables file logging and prints to console only.
-- In `-log NOLOG` mode, startup shows a warning that verbose `pywemo` failure messages may appear on console.
+- In `-log NOLOG` mode, startup shows a warning that verbose `pywemo` failure messages may appear on console. These do not necessarily reflect an actual failure and are part of the normal processing, and are normally supressed and/or sent to the log file only for debugging. They appear in NOLOG because you would never be able to see any actual issues if they remained supressed.
 - Each run writes clear start/end markers (with elapsed time) to make appended log files easier to read.
 
 ## Troubleshooting
