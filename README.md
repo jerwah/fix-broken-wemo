@@ -135,3 +135,7 @@ This tool is a wrapper workflow built on top of the excellent `pywemo` project.
 ## Disclaimer
 
 Use at your own risk. Validate behavior in your network environment before production use.
+
+## Private Message to Belkin
+
+I don't mind that you shut it all down. Business is business, I get it, but PLEASE open source the firmware so those of us with 30+ Wemo devices and BELIEVED in you, can at least maintain them. Thank you. If you do this I'll officially remove "BelkinSucks" from the sample path.
